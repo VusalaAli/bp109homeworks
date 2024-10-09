@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.highlight-box {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.highlight-red {
+    background-color: red;
+    color: white;
+}
+
+.highlight-yellow {
+    background-color: yellow;
+}
+
+.highlight-green {
+    background-color: green;
+    color: white;
+}

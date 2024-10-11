@@ -1,0 +1,32 @@
+
+
+.border {
+    border: 4px;
+    border-color: black;
+    display: flex;
+  }
+  p{
+  font-family: VusalaAli;
+  }
+  .box {
+    display: flex;
+  }
+  #card {
+    border-style: solid;
+    margin: 30px;
+    padding: 30px;
+    width: 200px;
+    height: 240px;
+  }
+  .Instagram {
+    background-color: rgb(47, 118, 216);
+    border-color: black;
+    color: rgb(208, 237, 46);
+  }
+  .readmore {
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 0%;
+  }

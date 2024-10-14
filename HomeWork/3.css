@@ -1,0 +1,29 @@
+body{
+    height: 200vh;
+}
+
+
+.box{
+    position: relative;
+    height: 250px;
+    
+    
+}
+
+
+h2{
+    background-color: black;
+    color: aqua;
+
+}
+
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    position: sticky;
+    left: 50%;
+    top: 50%;
+}

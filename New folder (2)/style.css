@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.cart{
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+    max-width: 80%;
+}
+.header2{
+    display: flex;
+}
+.col-12 box{
+    display: flex;
+
+}
+.cards{
+    display: flex;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3 {
+    width: calc(100% / 12 * 3);
+    padding: 1rem;
+}
+
+.box{
+    background-color:rgb(222, 216, 216);
+    border: 1px solid black;
+    height: 200px;
+    text-align: center;
+    
+    
+}
+.box1{
+    display: flex;
+   
+}

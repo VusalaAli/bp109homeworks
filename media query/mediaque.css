@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .cards{
+    display: flex;
+    
+  }
+  
+  .header{
+    padding: 2em 0;
+  }
+
+  .fa-clock{
+    margin-bottom: 2em;
+    background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .fa-face-smile{
+    margin-bottom: 2em;
+   background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .fa-heart{
+    margin-bottom: 2em;
+    background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .fa-fingerprint{
+    margin-bottom: 2em;
+    background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      
+      .col-3 {
+        width: calc(100% / 12 * 3);
+        padding: 1rem;
+      }
+      
+      
+      .col-6 {
+        width: calc(100% / 12 * 6);
+        padding: 1rem;
+      }
+      
+      
+    
+      .col-12 {
+        width: calc(100% / 12 * 12);
+        padding: 1rem;
+      }
+
+
+
+
+  @media only screen and (max-width: 991px){
+   
+      .col-md-4 {
+        width: calc(100% / 12 * 4);
+        padding: 1rem;
+      }
+      
+      .col-md-6 {
+        width: calc(100% / 12 * 6);
+        padding: 1rem;
+      }
+      
+      .col-md-12 {
+        width: calc(100% / 12 * 12);
+        padding: 1rem;
+      }
+    
+      .p-md-start-0 {
+        padding-left: 0;
+      }
+
+  }
+  @media only screen and (max-width:767px) {
+    
+  
+      .col-sm-6 {
+        width: calc(100% / 12 * 6);
+        padding: 1rem;
+      }
+      
+    
+  }
+
+  @media only screen and (max-width:576px) {
+    
+    .col-s-12 {
+      width: calc(100% / 12 * 12);
+      padding: 1rem;
+    }
+}

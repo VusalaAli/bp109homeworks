@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.highlight-yellow {
+    background-color: yellow;
+}
+
+.highlight-purple {
+    color: red;
+    border-bottom: 5px solid purple;
+}
+
+.highlight-purple-box {
+    border: 5px solid purple;
+    padding: 10px;
+}
+
+.highlight-blue {
+    background-color: lightblue;
+}
+
+.highlight-green {
+    background-color: green;
+    color: white;
+}
+
+.highlight-red {
+    background-color: red;
+    color: white;
+}
+
+.highlight-darkgreen {
+    background-color: darkgreen;
+    color: white;
+}
+
+.highlight-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.highlight-yellow-link {
+    background-color: yellow;
+    text-decoration: underline;
+}

@@ -48,3 +48,13 @@ nav ul{
 .card-list{
     justify-content: space-between;
 }
+.card-list{
+    display: flex;
+    
+}
+.card-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

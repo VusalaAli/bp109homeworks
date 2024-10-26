@@ -1,0 +1,160 @@
+* {
+  /* HTML5 display-role reset for older browsers */
+  /* HTML5 hidden-attribute fix for newer browsers */
+}
+* html, * body, * div, * span, * applet, * object, * iframe,
+* h1, * h2, * h3, * h4, * h5, * h6, * p, * blockquote, * pre,
+* a, * abbr, * acronym, * address, * big, * cite, * code,
+* del, * dfn, * em, * img, * ins, * kbd, * q, * s, * samp,
+* small, * strike, * strong, * sub, * sup, * tt, * var,
+* b, * u, * i, * center,
+* dl, * dt, * dd, * ol, * ul, * li,
+* fieldset, * form, * label, * legend,
+* table, * caption, * tbody, * tfoot, * thead, * tr, * th, * td,
+* article, * aside, * canvas, * details, * embed,
+* figure, * figcaption, * footer, * header, * hgroup,
+* main, * menu, * nav, * output, * ruby, * section, * summary,
+* time, * mark, * audio, * video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+* article, * aside, * details, * figcaption, * figure,
+* footer, * header, * hgroup, * main, * menu, * nav, * section {
+  display: block;
+}
+* *[hidden] {
+  display: none;
+}
+* body {
+  line-height: 1;
+}
+* menu, * ol, * ul {
+  list-style: none;
+}
+* blockquote, * q {
+  quotes: none;
+}
+* blockquote:before, * blockquote:after,
+* q:before, * q:after {
+  content: "";
+  content: none;
+}
+* table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  color: #FFFFFF;
+  line-height: 80px;
+  font-weight: 800;
+  font-size: 72px;
+  width: 515px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+header {
+  background-color: #28293E;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+header .header .contact {
+  width: 138px;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.6392156863);
+  background-color: transparent;
+  border-radius: 6px;
+  color: #FFFFFF;
+}
+header .header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+header .header ul li a {
+  color: #FFFFFF;
+}
+
+#home #hero-banner {
+  background-color: #28293E;
+}
+#home #hero-banner .hero-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+#home #hero-banner .hero-banner .hero-banner-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+#home #hero-banner .hero-banner .hero-banner-left .avatar {
+  width: 48px;
+  height: 48px;
+}
+#home #hero-banner .hero-banner .hero-banner-left .text {
+  line-height: 25px;
+}
+#home #hero-banner .hero-banner .hero-banner-left h1 {
+  position: relative;
+  z-index: 2;
+}
+#home #hero-banner .hero-banner .hero-banner-left .comment {
+  display: flex;
+  gap: 1em;
+}
+#home #hero-banner .hero-banner .hero-banner-left .star {
+  width: 148px;
+  height: 148px;
+  position: absolute;
+  z-index: 1;
+  right: 20%;
+}
+#home #hero-banner .hero-banner .hero-banner-left .btns .about-us {
+  background-color: #EF6D58;
+  width: 154px;
+  height: 48px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+#home #hero-banner .hero-banner .hero-banner-left .btns .contact-us {
+  width: 154px;
+  height: 48px;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid rgb(172, 164, 164);
+  color: #FFFFFF;
+}
+#home #hero-banner .hero-banner .hero-banner-left h5 {
+  color: #EF6D58;
+}
+#home #hero-banner .hero-banner .hero-banner-left .left {
+  color: rgba(255, 255, 255, 0.6392156863);
+  line-height: 2em;
+}
+#home #hero-banner .hero-banner .hero-banner-right img {
+  width: 550px;
+  height: 602px;
+}/*# sourceMappingURL=main.css.map */

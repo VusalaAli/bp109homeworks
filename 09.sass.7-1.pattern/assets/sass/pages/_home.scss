@@ -1,0 +1,77 @@
+#home{
+    #hero-banner{
+    background-color: $primary-color;
+
+        .hero-banner {
+            @include flexBox();
+            padding: 3rem;
+    
+            .hero-banner-left {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                position: relative;
+                .avatar{
+                    width: 48px;
+                    height: 48px;
+                }
+                .text{
+                    line-height: 25px;
+                }
+                h1{
+                    position: relative;
+                    z-index: 2;
+
+                }
+                .comment{
+                    display: flex;
+                    gap: 1em;
+                }
+                .star{
+                    width: 148px;
+                    height: 148px;
+                    position: absolute;
+                    z-index: 1;
+                    right: 20%;
+                }
+                .btns{
+                    .about-us{
+                        background-color: $third-color;
+                        width: 154px;
+                        height: 48px;
+                        color: $text-white;
+                        border-radius: 6px;
+                        border: 1px solid transparent;
+                    }
+                    .contact-us{
+                        width: 154px;
+                        height: 48px;
+                        background-color: transparent;
+                        border-radius: 6px;
+                        border: 1px solid rgb(172, 164, 164);
+                        color: $text-white;
+
+                    }
+                }
+    
+                h5 {
+                    color: $third-color;
+                }
+    
+                .left {
+                    color: $text-light;
+                    line-height: 2em ;
+                }
+            }
+    
+    
+            .hero-banner-right {
+                img {
+                    width: 550px;
+                    height: 602px;
+                }
+    
+            }
+        }
+    }
+}

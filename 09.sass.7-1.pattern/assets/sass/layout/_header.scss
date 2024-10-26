@@ -1,0 +1,32 @@
+header {
+    background-color: $primary-color;
+
+    .header {
+        @include flexBox ();
+        padding: 1rem 0;
+        .contact{
+            width: 138px;
+            height: 48px;
+            border: 1px solid $text-light;
+            background-color: transparent;
+            border-radius: 6px;
+            color: $text-white;
+            
+
+        }
+
+        ul {
+            @include flexBox ();
+            gap: 2rem;
+
+            li {
+                a {
+                    color: $text-white;
+                }
+            }
+        }
+
+    } 
+
+ 
+}

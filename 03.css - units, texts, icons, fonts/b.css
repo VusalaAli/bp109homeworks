@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #bord {
+    display: flex;
+  }
+  .border {
+    border: solid 2px;
+    height: 35rem;
+    width: 40rem;
+    line-height: 35px;
+    background-color: white;
+    border-color: rebeccapurple;
+    text-align: center;
+  }
+  #box {
+    border: solid 2px;
+    border-color: rebeccapurple;
+    height: 35rem;
+    width: 40rem;
+    background-color: gray;
+   
+    
+  }
+  #box {
+    text-align: center;
+    line-height: 40px;
+  }
+  .resume {
+    border: black;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+  }
+  .brands {
+    text-align: center;
+    word-spacing: 15px;
+  }
+  .button {
+    word-spacing: 10rem;
+  }

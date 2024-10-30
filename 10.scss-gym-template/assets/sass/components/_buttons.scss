@@ -1,0 +1,14 @@
+.clc{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 1rem;
+    &:hover{
+        background-color: transparent;
+        border: 1px solid white;
+        color: black;
+        transition: 0.5s;
+    }
+}

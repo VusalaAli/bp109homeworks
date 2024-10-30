@@ -1,1 +1,204 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1500px;
+}
+
+p {
+  font-size: 1em;
+}
+
+.clc {
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  height: 2.5rem;
+  width: 15rem;
+  font-size: 1rem;
+}
+.clc:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: black;
+  transition: 0.5s;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+.inputs .input1 {
+  width: 15rem;
+  height: 2.5rem;
+}
+.inputs .input2 {
+  width: 15rem;
+  height: 2.5rem;
+}
+
+.header-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#banner .banner {
+  background-image: url(https://preview.colorlib.com/theme/gym/img/header-bg.jpg);
+  height: 110vh;
+}
+#banner .banner h1 {
+  font-size: 4rem;
+  padding-top: 8rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#banner .banner p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#about .about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#about .about-text h2 {
+  font-size: 3rem;
+}
+#about .about-cards {
+  gap: 2rem;
+  padding-left: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+#about .about-cards .card {
+  box-shadow: rgb(255, 103, 103) 0px 8px 24px, rgb(255, 90, 90) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+}
+#about .about-cards .card .card-image {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .about-cards .card h3 {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+#about .about-cards .card p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+#we-offer {
+  background-color: red;
+}
+#we-offer .we-offer-text {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#we-offer .we-offer-text h2 {
+  font-size: 3rem;
+}
+
+#top-course .revolutions {
+  display: flex;
+}
+#top-course .revolutions .image-1 {
+  width: 855px;
+  height: 100px;
+}
+#top-course .revolutions .image-2 {
+  width: 855px;
+  height: 100px;
+}
+#top-course .revolutions .image-text {
+  background-color: black;
+  width: 855px;
+  height: 100px;
+}
+#top-course .revolutions .image-text h6 {
+  color: white;
+}
+#top-course .revolutions .image-text h2 {
+  color: red;
+}
+#top-course .revolutions .image-text p {
+  color: gray;
+}
+#top-course .top-course-text {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+#top-course .students {
+  padding: 3rem;
+}
+#top-course .students .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 2rem;
+}
+#top-course .students .row .students-col-4 {
+  width: 330px;
+  height: 195px;
+  position: relative;
+  overflow: hidden;
+}
+#top-course .students .row .students-col-4:hover .img {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+#top-course .students .row .students-col-4 h4 {
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  background-color: red;
+  width: 200px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
